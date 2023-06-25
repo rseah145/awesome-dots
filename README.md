@@ -11,6 +11,8 @@ Copy .config to ~/
   
 Requires adi1090x rofi themes to be installed  
 
+Requires volctl to be installed  
+
 Requires yay to be installed  
   
 Install picom-pijulius-git using yay
