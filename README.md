@@ -1,3 +1,7 @@
+## Configured to work on an arch linux VM in vmware  
+
+### Requires further configuration to work on baremetal  
+
 awesomewm on arch linux  
 
 
