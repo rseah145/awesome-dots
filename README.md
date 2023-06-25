@@ -1,4 +1,4 @@
-Copy .config to ~/
+Copy .config to ~/  
   
 
 Requires yay to be installed  
