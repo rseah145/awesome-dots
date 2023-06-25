@@ -335,7 +335,7 @@ globalkeys = gears.table.join(
 		if c then
 			c:emit_signal("request::activate", "key.unminimize", { raise = true })
 		end
-	end, { description = "restore minimized", group = "client" }),
+	end, { description = "restore minimized", group = "client" })
 
 	-- Prompt, use rofi instead
 	--	awful.key({ modkey }, "r", function()
@@ -351,9 +351,9 @@ globalkeys = gears.table.join(
 	--		})
 	--	end, { description = "lua execute prompt", group = "awesome" }),
 	-- Menubar
-	awful.key({ modkey }, "p", function()
-		menubar.show()
-	end, { description = "show the menubar", group = "launcher" })
+	--awful.key({ modkey }, "p", function()
+	--	menubar.show()
+	--end, { description = "show the menubar", group = "launcher" })
 )
 
 clientkeys = gears.table.join(
@@ -587,15 +587,11 @@ client.connect_signal("unfocus", function(c)
 end)
 -- }}}
 
-
-
 -- Custom configurations
--- Comment out polybar launcher and uncomment lua code lines above to enable wibar
 
 -- Gaps between tiling windows
 beautiful.gap_single_client = true
 beautiful.useless_gap = 5
-
 
 -- Set rounded corners for all windows
 client.connect_signal("manage", function(c)
@@ -604,14 +600,10 @@ client.connect_signal("manage", function(c)
 	end
 end)
 
-
 -- Exclude rounded corners for certain windows
-awful.rules.rules = { 
-	{	rule = { instance = "polybar" }, 
-		properties = { shape = rectangle } 
-	}
+awful.rules.rules = {
+	{ rule = { instance = "polybar" }, properties = { shape = rectangle } },
 }
-
 
 -- Autostart
 awful.spawn.with_shell("picom --experimental-backends -b")
