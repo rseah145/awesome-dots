@@ -602,3 +602,4 @@ end)
 
 -- Autostart
 awful.spawn.with_shell("picom --experimental-backends -b")
+awful.spawn.with_shell("feh --bg-fill /usr/share/wallpapers/tenki-no-ko-2k.png")
