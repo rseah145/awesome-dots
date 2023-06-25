@@ -335,9 +335,9 @@ globalkeys = gears.table.join(
 		if c then
 			c:emit_signal("request::activate", "key.unminimize", { raise = true })
 		end
-	end, { description = "restore minimized", group = "client" })
+	end, { description = "restore minimized", group = "client" }),
 
-	-- Prompt, use rofi instead
+	-- Default prompt, use rofi instead
 	--	awful.key({ modkey }, "r", function()
 	--		awful.screen.focused().mypromptbox:run()
 	--	end, { description = "run prompt", group = "launcher" }),
@@ -354,8 +354,14 @@ globalkeys = gears.table.join(
 	--awful.key({ modkey }, "p", function()
 	--	menubar.show()
 	--end, { description = "show the menubar", group = "launcher" })
+
+	-- Rofi config with adi1090x theme, config is type-6 and style-10
+	awful.key({ modkey }, "r", function()
+		awful.spawn.with_shell("sh ~/.config/rofi/launchers/type-6/launcher.sh")
+	end, { description = "run rofi programs", group = "launcher" })
 )
 
+-- Added to the end of globalkeys right above, commenting out wibar screwed something up
 clientkeys = gears.table.join(
 	awful.key({ modkey }, "f", function(c)
 		c.fullscreen = not c.fullscreen
@@ -518,6 +524,9 @@ awful.rules.rules = {
 	-- Set Firefox to always map on the tag named "2" on screen 1.
 	-- { rule = { class = "Firefox" },
 	--   properties = { screen = 1, tag = "2" } },
+
+	-- Exclude rounded corners for polybar
+	{ rule = { instance = "polybar" }, properties = { shape = rectangle } },
 }
 -- }}}
 
@@ -600,14 +609,9 @@ client.connect_signal("manage", function(c)
 	end
 end)
 
--- Exclude rounded corners for certain windows
-awful.rules.rules = {
-	{ rule = { instance = "polybar" }, properties = { shape = rectangle } },
-}
-
 -- Autostart
 awful.spawn.with_shell("picom --experimental-backends -b")
-awful.spawn.with_shell("kmix")
+awful.spawn.with_shell("pkill volctl & sleep 1 && volctl")
 awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("~/.config/polybar/launch.sh")
 awful.spawn.with_shell("feh --bg-fill /usr/share/wallpapers/tenki-no-ko-2k.png")
