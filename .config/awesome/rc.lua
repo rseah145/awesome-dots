@@ -590,7 +590,7 @@ end)
 
 
 -- Custom configurations
-
+-- Comment out polybar launcher and uncomment lua code lines above to enable wibar
 
 -- Gaps between tiling windows
 beautiful.gap_single_client = true
