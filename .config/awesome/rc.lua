@@ -1,6 +1,5 @@
 -- If LuaRocks is installed, make sure that packages installed through it are
 -- found (e.g. lgi). If LuaRocks is not installed, do nothing.
--- Uncomment all the lua code lines to restore default wibar and command launcher prompt
 pcall(require, "luarocks.loader")
 
 -- Standard awesome library
@@ -588,9 +587,15 @@ client.connect_signal("unfocus", function(c)
 end)
 -- }}}
 
+
+
+-- Custom configurations
+
+
 -- Gaps between tiling windows
 beautiful.gap_single_client = true
 beautiful.useless_gap = 5
+
 
 -- Set rounded corners for all windows
 client.connect_signal("manage", function(c)
@@ -599,9 +604,16 @@ client.connect_signal("manage", function(c)
 	end
 end)
 
+
+-- Exclude rounded corners for certain windows
+awful.rules.rules = { 
+	{	rule = { instance = "polybar" }, 
+		properties = { shape = rectangle } 
+	}
+}
+
+
 -- Autostart
 awful.spawn.with_shell("picom --experimental-backends -b")
-awful.spawn.with_shell("feh --bg-fill /usr/share/wallpapers/tenki-no-ko-2k.png")
-
--- Comment out polybar launcher before uncommenting all the lua code to enable wibar
 awful.spawn.with_shell("~/.config/polybar/launch.sh")
+awful.spawn.with_shell("feh --bg-fill /usr/share/wallpapers/tenki-no-ko-2k.png")
