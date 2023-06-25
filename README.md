@@ -1,3 +1,6 @@
+awesomewm on arch linux  
+
+
 Copy .config to ~/  
   
 
