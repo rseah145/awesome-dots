@@ -9,6 +9,7 @@ awesomewm on arch linux
 
 Copy .config to ~/  
   
+Requires adi1090x rofi themes to be installed  
 
 Requires yay to be installed  
   
