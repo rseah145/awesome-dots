@@ -615,5 +615,7 @@ awful.rules.rules = {
 
 -- Autostart
 awful.spawn.with_shell("picom --experimental-backends -b")
+awful.spawn.with_shell("kmix")
+awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("~/.config/polybar/launch.sh")
 awful.spawn.with_shell("feh --bg-fill /usr/share/wallpapers/tenki-no-ko-2k.png")
