@@ -22,6 +22,13 @@ yay -S --neeeded picom-pijulius-git
 
 ## Others  
 Use oh-my-bash with powerline theme  
+
 nordic theme from gnome-looks.org with lxappearance  
+
+papirus icons  
+
+firacode nerd font via pacman  
+
 added blackarch repo for pentesting tools  
+
 Setup xorg-server with xinitrc and sddm  
