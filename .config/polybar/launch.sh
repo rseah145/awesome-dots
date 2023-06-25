@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# From arch wiki polybar, make this script executable "chmod 740 launch.sh"
+# From arch wiki polybar, make this script executable "chmod 710 launch.sh"
 # Terminate already running bar instances
 killall -q polybar
 # If all your bars have ipc enabled, you can also use
