@@ -1,4 +1,4 @@
-Copy rc.lua to ~/.config/awesome/rc.lua  
+Copy .config to ~/
   
 
 Requires yay to be installed  
