@@ -2,6 +2,8 @@
 
 ### Requires further configuration to work on baremetal  
 
+### Follow the steps after using "archinstall" installation script with awesome
+
 awesomewm on arch linux  
 
 
