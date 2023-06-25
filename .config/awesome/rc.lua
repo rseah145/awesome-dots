@@ -1,5 +1,6 @@
 -- If LuaRocks is installed, make sure that packages installed through it are
 -- found (e.g. lgi). If LuaRocks is not installed, do nothing.
+-- Uncomment all the lua code lines to restore default wibar and command launcher prompt
 pcall(require, "luarocks.loader")
 
 -- Standard awesome library
