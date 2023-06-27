@@ -1,3 +1,5 @@
+# awesomewm arch setup with minimal configurations   
+
 ## Configured to work on an arch linux VM in vmware  
 
 ### Requires further configuration to work on baremetal  
