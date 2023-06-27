@@ -6,9 +6,11 @@
 
 ### Follow the steps after using "archinstall" installation script with awesome as the desktop profile  
 
-Install firacode nerd font via pacman. ```pacman -S ttf-firacode-nerd```  
+Install firacode nerd font via pacman. 
+```pacman -S ttf-firacode-nerd```  
 
-clone this repo using ```git clone https://github.com/b00tl04d/awesome-dots.git```  
+clone this repo  
+```git clone https://github.com/b00tl04d/awesome-dots.git```  
 
 Copy .config folder to ~/   
 
