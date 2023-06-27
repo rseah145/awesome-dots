@@ -7,7 +7,7 @@
 ### Follow the steps after using "archinstall" installation script with awesome as the desktop profile
 
 awesomewm on arch linux  
-
+  
 
 Copy .config to ~/  
   
