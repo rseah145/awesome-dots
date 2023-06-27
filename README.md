@@ -18,6 +18,11 @@ git clone https://github.com/b00tl04d/awesome-dots.git
 
 Copy .config folder to ~/   
 
+Copy wallpapers folder to /usr/share directory
+```bash
+sudo cp -r wallpapers /usr/share
+```
+
 Requires yay to be installed. [Install guide](https://github.com/Jguer/yay#installation)  
   
 Install picom-pijulius-git and volctl using yay
