@@ -13,12 +13,10 @@ Copy .config folder to ~/
 adi1090x rofi themes is used  
 
 Requires yay to be installed. [Install guide](https://github.com/Jguer/yay#installation)  
-
-Requires volctl to be installed  (via yay)
   
-Install picom-pijulius-git using yay
+Install picom-pijulius-git and volctl using yay
 ```bash
-yay -S --neeeded picom-pijulius-git
+yay -S --neeeded picom-pijulius-git volctl
 ```
 
 ## Others  
