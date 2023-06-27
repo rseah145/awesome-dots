@@ -8,9 +8,7 @@
 
 clone this repo using ```git clone https://github.com/b00tl04d/awesome-dots.git```  
 
-Copy .config folder to ~/  
-  
-adi1090x rofi themes is used  
+Copy .config folder to ~/   
 
 Requires yay to be installed. [Install guide](https://github.com/Jguer/yay#installation)  
   
@@ -20,13 +18,15 @@ yay -S --neeeded picom-pijulius-git volctl
 ```
 
 ## Others  
+adi1090x rofi themes is used (included in .config)  
+
 Use oh-my-bash with powerline theme  
 
-nordic theme from gnome-looks.org with lxappearance  
+Install nordic theme from gnome-looks.org and configure with lxappearance  
 
-papirus icons  
+Install papirus icons  
 
-firacode nerd font via pacman  
+Install firacode nerd font via pacman. ```pacman -S ttf-firacode-nerd```  
 
 added blackarch repo for pentesting tools  
 
