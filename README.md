@@ -6,8 +6,7 @@
 
 ### Follow the steps after using "archinstall" installation script with awesome as the desktop profile
 
-awesomewm on arch linux  
-  
+clone this repo using ```git clone https://github.com/b00tl04d/awesome-dots.git```  
 
 Copy .config to ~/  
   
