@@ -4,7 +4,9 @@
 
 ### Requires further configuration to work on baremetal  
 
-### Follow the steps after using "archinstall" installation script with awesome as the desktop profile
+### Follow the steps after using "archinstall" installation script with awesome as the desktop profile  
+
+Install firacode nerd font via pacman. ```pacman -S ttf-firacode-nerd```  
 
 clone this repo using ```git clone https://github.com/b00tl04d/awesome-dots.git```  
 
@@ -25,8 +27,6 @@ Use oh-my-bash with powerline theme
 Install nordic theme from gnome-looks.org and configure with lxappearance  
 
 Install papirus icons  
-
-Install firacode nerd font via pacman. ```pacman -S ttf-firacode-nerd```  
 
 added blackarch repo for pentesting tools  
 
