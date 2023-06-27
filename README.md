@@ -12,7 +12,7 @@ Copy .config folder to ~/
   
 adi1090x rofi themes is used  
 
-Requires yay to be installed  
+Requires yay to be installed. [Install guide](https://github.com/Jguer/yay#installation)  
 
 Requires volctl to be installed  (via yay)
   
