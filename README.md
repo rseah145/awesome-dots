@@ -8,7 +8,7 @@
 
 clone this repo using ```git clone https://github.com/b00tl04d/awesome-dots.git```  
 
-Copy .config to ~/  
+Copy .config folder to ~/  
   
 Requires adi1090x rofi themes to be installed  
 
