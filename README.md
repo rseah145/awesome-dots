@@ -1,6 +1,6 @@
 # awesomewm arch setup with minimal configurations   
 
-## Configured to work on an arch linux VM in vmware  
+## Configured to work on an arch linux VM in vmware (Learning how to rice)  
 
 ### Requires further configuration to work on baremetal  
 
