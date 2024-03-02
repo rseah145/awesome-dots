@@ -45,6 +45,9 @@ Setup xorg-server with xinitrc and sddm
 
 Update, used rofi a theme from:  
 [rofi-themes](https://github.com/newmanls/rofi-themes-collection)  
+Used a different adi1090x rofi theme + polybar widgets (unable to find references/repos)  
+In the event the updated components do not work (rofi + polybar changes, only those 2)  
+Use the old config/ old launch .sh files instead of the updated ones  
 
 ## Screenshot  
 ![image](https://github.com/b00tl04d/awesome-dots/assets/108401257/ce6702bc-2bda-4dd7-83da-727a077189f7)
