@@ -43,11 +43,12 @@ added blackarch repo for pentesting tools
 
 Setup xorg-server with xinitrc and sddm  
 
-Update, used rofi a theme from:  
 
-[rofi-themes](https://github.com/newmanls/rofi-themes-collection)  
+### Small Update:  
 
-Used a adi1090x polybar theme from [here](https://github.com/adi1090x/polybar-themes) + polybar widgets (unable to find references/repos)  
+Used a rofi theme from [newmanls rofi themes](https://github.com/newmanls/rofi-themes-collection)  
+
+Used a different adi1090x polybar theme from [here](https://github.com/adi1090x/polybar-themes) + polybar widgets (unable to find references/repos)  
 
 In the event the updated components do not work (rofi + polybar changes, only those 2)  
 
