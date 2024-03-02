@@ -43,6 +43,9 @@ added blackarch repo for pentesting tools
 
 Setup xorg-server with xinitrc and sddm  
 
+Update, used rofi a theme from:  
+[rofi-themes](https://github.com/newmanls/rofi-themes-collection)  
+
 ## Screenshot  
 ![image](https://github.com/b00tl04d/awesome-dots/assets/108401257/ce6702bc-2bda-4dd7-83da-727a077189f7)
 
