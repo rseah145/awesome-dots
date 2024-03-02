@@ -4,7 +4,7 @@
 
 ### Requires further configuration to work on baremetal  
 
-### Follow the steps after using "archinstall" installation script with awesome as the desktop profile  
+### Follow the steps after using "archinstall" installation script, using NetworkManager as the Network configuration, and with awesome as the desktop profile  
 
 Install firacode nerd font via pacman.
 ```bash
