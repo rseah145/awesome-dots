@@ -26,14 +26,14 @@ From [here](https://github.com/vulekhanh/dotfileshttps://github.com/vulekhanh/do
 
 Run the modified install.sh script within this repo (taken from the template)  
 
-Copy .config folder to ~/  
-```bash
-cp -r .config ~/
-```  
-
 UPDATE: wallpapers are now stored within .config/wallpapers  
 
 Requires yay to be installed. [Install guide](https://github.com/Jguer/yay#installation)  
+
+
+## TODO  
+
+Add a network manager widget (top-right)  
 
 
 ## Others  
