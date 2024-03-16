@@ -32,7 +32,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master
 
 echo "Moving the pre-configured files..."
 cp -r .config ~/.config
-cp -r .oh-my-bash ~/.oh-my-bash
 cp .bashrc ~/.bashrc
 
 gum style --foreground "#19a9bf" --bold --margin "1 2" "All required packages are now installed! Setup has been completed! Enjoy!"
