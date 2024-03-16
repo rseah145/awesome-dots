@@ -22,7 +22,7 @@ git clone https://github.com/rseah145/awesome-dots.git
 ```
 
 UPDATE: Using the following Awesome WM dotfiles as a template  
-From [here](#https://github.com/vulekhanh/dotfileshttps://github.com/vulekhanh/dotfiles)  
+From [here](https://github.com/vulekhanh/dotfileshttps://github.com/vulekhanh/dotfiles)  
 
 Run the modified install.sh script within this repo (taken from the template)  
 
