@@ -44,9 +44,7 @@ Install nordic theme from gnome-looks.org and configure with lxappearance
 
 Install papirus icons  
 
-added blackarch repo for pentesting tools  
-
-Setup xorg-server with xinitrc and sddm  
+Add blackarch repo for pentesting tools   
  
 
 ## Screenshot  
