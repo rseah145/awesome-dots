@@ -14,6 +14,11 @@ pacman -S ttf-firacode-nerd
 Install gum via pacman  
 ```bash
 pacman -S gum
+```
+
+Install curl via pacman
+```bash
+pacman -S curl
 ```  
 
 clone this repo
