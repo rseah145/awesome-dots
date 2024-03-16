@@ -50,5 +50,6 @@ Setup xorg-server with xinitrc and sddm
  
 
 ## Screenshot  
-![image](https://github.com/rseah145/awesome-dots/assets/108401257/ce6702bc-2bda-4dd7-83da-727a077189f7)
+
+![Image](https://github.com/rseah145/awesome-dots/assets/108401257/e4314c51-55ac-4a80-839c-0e585d9f9442)
 
