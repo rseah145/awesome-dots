@@ -24,7 +24,12 @@ pacman -S curl
 clone this repo
 ```bash
 git clone https://github.com/rseah145/awesome-dots.git
-```
+```  
+
+Run the installation script
+```bash
+cd awesome-dots && chmod +x install.sh && ./install.sh
+```  
 
 UPDATE: Using the following Awesome WM dotfiles as a template  
 From [here](https://github.com/vulekhanh/dotfileshttps://github.com/vulekhanh/dotfiles)  
