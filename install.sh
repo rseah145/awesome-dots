@@ -27,11 +27,10 @@ gum style --foreground=$greenColor --margin "1 2" "Installing Required Packages"
   gum confirm "Would you like to install it?" && yayInstallation || gum style --foreground "#eb4034" --margin "1 2" --bold "Yay isn't installed!"
   fi
 
-echo "Installing oh-my-bash..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+gum style --foreground "#19a9bf" --bold --margin "1 2" "All required packages are now installed! Setup has been completed! Enjoy!"
 
 echo "Moving the pre-configured files..."
 cp -r .config ~/
-cp .bashrc ~/.bashrc
 
-gum style --foreground "#19a9bf" --bold --margin "1 2" "All required packages are now installed! Setup has been completed! Enjoy!"
+echo "Installing oh-my-bash and setting theme to powerline..."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" && cp .bashrc ~/.bashrc
