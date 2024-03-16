@@ -35,6 +35,8 @@ Requires yay to be installed. [Install guide](https://github.com/Jguer/yay#insta
 
 Add a network manager widget (top-right)  
 
+Add a menu button and a file manager launcher (top-left)  
+
 
 ## Others  
 
