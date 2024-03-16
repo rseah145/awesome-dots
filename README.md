@@ -51,5 +51,5 @@ Add blackarch repo for pentesting tools
 
 ## Screenshot  
 
-![Image](https://github.com/rseah145/awesome-dots/assets/108401257/e4314c51-55ac-4a80-839c-0e585d9f9442)
+![Neofetch Image](https://github.com/rseah145/awesome-dots/assets/108401257/01b1fd8e-8820-4622-a823-e5977dbdca2f)
 
