@@ -1,37 +1,42 @@
 # awesomewm arch setup with minimal configurations   
 
-## Configured to work on an arch linux VM in vmware (Learning how to rice)  
+Configured to work on an arch linux VM in vmware (Learning how to rice)  
 
-### Requires further configuration to work on baremetal  
+Requires further configuration to work on baremetal  
 
-### Follow the steps after using "archinstall" installation script, using NetworkManager as the Network configuration, and with awesome as the desktop profile  
+## Follow the steps after using "archinstall" installation script, using NetworkManager as the Network configuration, and with awesome as the desktop profile  
 
 Install firacode nerd font via pacman.
 ```bash
 pacman -S ttf-firacode-nerd
+```
+
+Install gum via pacman  
+```bash
+pacman -S gum
 ```  
 
 clone this repo
 ```bash
-git clone https://github.com/b00tl04d/awesome-dots.git
+git clone https://github.com/rseah145/awesome-dots.git
+```
+
+UPDATE: Using the following Awesome WM dotfiles as a template  
+From [here](#https://github.com/vulekhanh/dotfileshttps://github.com/vulekhanh/dotfiles)  
+
+Run the modified install.sh script within this repo (taken from the template)  
+
+Copy .config folder to ~/  
+```bash
+cp -r .config ~/
 ```  
 
-Copy .config folder to ~/   
-
-Copy wallpapers folder to /usr/share directory
-```bash
-sudo cp -r wallpapers /usr/share
-```
+UPDATE: wallpapers are now stored within .config/wallpapers  
 
 Requires yay to be installed. [Install guide](https://github.com/Jguer/yay#installation)  
-  
-Install picom-pijulius-git and volctl using yay
-```bash
-yay -S --neeeded picom-pijulius-git volctl
-```
+
 
 ## Others  
-adi1090x rofi themes is used (included in .config)  
 
 Use oh-my-bash with powerline theme  
 
@@ -42,16 +47,8 @@ Install papirus icons
 added blackarch repo for pentesting tools  
 
 Setup xorg-server with xinitrc and sddm  
-
-
-### Small Update:  
-
-Used a rofi theme from [newmanls rofi themes](https://github.com/newmanls/rofi-themes-collection)  
-
-Used a different adi1090x polybar theme from [here](https://github.com/adi1090x/polybar-themes) + polybar widgets (unable to find references/repos)  
-
-In the event the updated components do not work (rofi + polybar changes, only those 2), use the old config/ old launch .sh files instead of the updated ones (changes were only made to rofi and polybar setups)  
+ 
 
 ## Screenshot  
-![image](https://github.com/b00tl04d/awesome-dots/assets/108401257/ce6702bc-2bda-4dd7-83da-727a077189f7)
+![image](https://github.com/rseah145/awesome-dots/assets/108401257/ce6702bc-2bda-4dd7-83da-727a077189f7)
 
