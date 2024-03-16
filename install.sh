@@ -31,7 +31,7 @@ echo "Installing oh-my-bash..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
 echo "Moving the pre-configured files..."
-cp -r .config ~/.config
+cp -r .config ~/
 cp .bashrc ~/.bashrc
 
 gum style --foreground "#19a9bf" --bold --margin "1 2" "All required packages are now installed! Setup has been completed! Enjoy!"
