@@ -219,7 +219,7 @@ local volicon = make_fa_icon("", catppuccin.green)
 -- Keyboard map indicator and switcher
 mykeyboardlayout = awful.widget.keyboardlayout()
 -- Create a textclock widget
-local mytextclock = wibox.widget.textclock('<span color="#ca9ee6" font="Terminus Heavy 10">%d %B %Y %H:%M %p </span>', 5)
+local mytextclock = wibox.widget.textclock('<span color="#ca9ee6" font="Terminus Heavy 10">%d %B %Y %I:%M %p </span>', 5)
 local cw = calendar_widget({
 	theme = "catppuccin",
 	placement = "top_right",
