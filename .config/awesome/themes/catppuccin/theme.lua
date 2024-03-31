@@ -25,7 +25,10 @@ theme.fg_normal = "#8aadf4"
 theme.fg_focus = "#24273A"
 theme.fg_urgent = "#ed8796"
 theme.fg_minimize = "#ffffff"
-theme.border_width = dpi(3)
+
+-- only uncomment this if you want all windows
+-- to have a colour outline
+--theme.border_width = dpi(3)
 theme.useless_gap = dpi(4)
 theme.border_normal = "#00000000"
 theme.border_focus = "#8aadf4"
