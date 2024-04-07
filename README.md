@@ -57,6 +57,10 @@ Install papirus icons
 
 neovim config = lazy vim (Default keymaps) + monokai colorscheme + terminal plugin  
 
+Exact same lazy vim config can be used on Windows as well.  
+
+Copy the files to their respective directories, i.e. lazy.lua to "nvim/lua/config/" and modify lazy.lua to use PowerShell instead of bash for Linux  
+
 Additional references used to configure lazy vim config:  
 
 [lazy vim neo-tree config](https://github.com/nvim-neo-tree/neo-tree.nvim/discussions/353)  
