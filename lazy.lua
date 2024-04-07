@@ -11,6 +11,13 @@ local powershell_options = {
 }
 --]]
 
+-- Linux toggleterm bash config, comment this out and uncomment the PowerShell config above if this nvim setup is used
+-- on Windows (get rid of "--[[" and "--]]" and set "--[[" and "--]]" to remove/add multi-line comments in Lua)
+local bash_options = {
+  shell = vim.fn.executable("bash")
+}
+
+-- Change text within "pairs" function to use toggleterm settings for Windows/Linux
 for option, value in pairs(powershell_options) do
   vim.opt[option] = value
 end
