@@ -1,5 +1,6 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
+--[[ uncomment for usage on Windows with powershell
 local powershell_options = {
   shell = vim.fn.executable("pwsh") == 1 and "pwsh" or "powershell",
   shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;",
@@ -8,6 +9,7 @@ local powershell_options = {
   shellquote = "",
   shellxquote = "",
 }
+--]]
 
 for option, value in pairs(powershell_options) do
   vim.opt[option] = value
