@@ -59,7 +59,7 @@ neovim config = lazy vim (Default keymaps) + monokai colorscheme + terminal plug
 
 Additional references used to configure lazy vim config:  
 
-https://github.com/nvim-neo-tree/neo-tree.nvim/discussions/353  
+[lazy vim neo-tree config](https://github.com/nvim-neo-tree/neo-tree.nvim/discussions/353)  
 
 
 ## Screenshot  
