@@ -31,7 +31,7 @@ Run the installation script
 cd awesome-dots && chmod +x install.sh && ./install.sh
 ```  
 
-UPDATE: Using the following Awesome WM dotfiles as a template from [here](https://github.com/vulekhanh/dotfileshttps://github.com/vulekhanh/dotfiles)  
+UPDATE: Using the following Awesome WM dotfiles as a template from [here](https://github.com/vulekhanh/dotfiles)  
 
 Run the modified install.sh script within this repo (taken from the template)  
 
