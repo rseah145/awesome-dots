@@ -17,8 +17,8 @@ local bash_options = {
   shell = vim.fn.executable("bash")
 }
 
--- Change text within "pairs" function to use toggleterm settings for Windows/Linux
-for option, value in pairs(powershell_options) do
+-- Change text within "pairs" function to use toggleterm settings for Windows/Linux shell
+for option, value in pairs(bash_options) do
   vim.opt[option] = value
 end
 
