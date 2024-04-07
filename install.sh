@@ -42,4 +42,19 @@ wait
 echo "Setting OMB theme to powerline..."
 cp .bashrc ~/.bashrc
 
+# Install lazy vim
+echo "Setting up lazy vim..."
+git clone https://github.com/LazyVim/starter ~/.config/nvim &
+wait
+rm -rf ~/.config/nvim/.git &
+wait
+
+# Monokai colorscheme and neo-tree settings to show all files in dir
+cp neo-tree.lua ~/.config/nvim/lua/plugins/neo-tree.lua
+cp colorscheme.lua ~/.config/nvim/lua/plugins/colorscheme.lua
+
+# Use custom lazy.lua and init.lua files
+cp init.lua ~/.config/nvim/init.lua
+cp lazy.lua ~/.config/nvim/lua/config/lazy.lua
+
 gum style --foreground "#19a9bf" --bold --margin "1 2" "All required packages are now installed! Setup has been completed! Enjoy!"
