@@ -55,7 +55,7 @@ Install nordic theme from gnome-looks.org and configure with lxappearance
 
 Install papirus icons  
 
-Add blackarch repo for pentesting tools   
+neovim config = lazy vim + monokai colorscheme + terminal plugin  
  
 
 ## Screenshot  
