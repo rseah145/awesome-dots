@@ -55,7 +55,7 @@ Install nordic theme from gnome-looks.org and configure with lxappearance
 
 Install papirus icons  
 
-neovim config = lazy vim + monokai colorscheme + terminal plugin  
+neovim config = lazy vim (Default keymaps) + monokai colorscheme + terminal plugin  
 
 Additional references used to configure lazy vim config:  
 
