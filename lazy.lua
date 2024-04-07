@@ -1,6 +1,6 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
---[[ uncomment for usage on Windows with powershell
+--[[=====[ uncomment for usage on Windows with powershell
 local powershell_options = {
   shell = vim.fn.executable("pwsh") == 1 and "pwsh" or "powershell",
   shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;",
@@ -9,7 +9,7 @@ local powershell_options = {
   shellquote = "",
   shellxquote = "",
 }
---]]
+--]]=====]
 
 -- Linux toggleterm bash config, comment this out and uncomment the PowerShell config above if this nvim setup is used
 -- on Windows (get rid of "--[[" and "--]]" and set "--[[" and "--]]" to remove/add multi-line comments in Lua)
